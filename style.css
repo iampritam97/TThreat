@@ -1,0 +1,109 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font.ttf);
+}
+
+body {
+  padding: 300px 700px;
+  font-family: myFirstFont;
+  font-size: 13px;
+  background: linear-gradient(#00b09b, #96c93d);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: myFirstFont;
+    font-size: 40px;
+width: 640px; 
+}
+
+
+
+input, textarea {
+  padding: 1.1em 3.9em;
+  border-radius: 14.2rem
+      
+}
+
+textarea {
+  width: 200px;
+  height: 150px;
+  max-width: 400px;
+  line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  border-color: 1px solid #C9C9C9;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;  
+}
+
+.form label {
+  margin-left: 20px;
+  font-family:monospace;
+    font-size: 15px;
+}
+
+
+.usersubmit input {
+  flex-grow: 1;
+  color: $input-text-active;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+  &::-webkit-input-placeholder {
+    color: $input-text-inactive;
+  }
+}
+
+.btn1 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: myFirstFont;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn1:focus {
+  text-decoration: none;
+}
+
+.btn1:hover {
+  text-decoration: none;
+}
+
+.btn1:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.btn1:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .btn1 {
+    padding: 12px 50px;
+  }
+}
+
