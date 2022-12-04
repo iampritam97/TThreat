@@ -47,16 +47,24 @@ else{
             </div>
         </div>
       </div>
+      
     </div>
+    </br>
+    </br>
+    <button style="align:right;" class="btnhome"><a href="/xss-labs">Home</a></button> 
+    <button style="align:right;" class="btnext"><a href="2.php">Next Chall</a></button>
     </div>
     </div>
 
-    </form>';
+    </form>
+    ';
 
 }
 
 ?>
 <!-- <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span> -->
+
+            
 
 <script>
 	function validateForm() {
