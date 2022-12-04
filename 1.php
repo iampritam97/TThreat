@@ -13,7 +13,7 @@ if (isset($_POST['fname'])) {
 }
 else{
 
-    echo '<form name="myForm" action="1test.php" onsubmit="return validateForm()" method="post">
+    echo '<form name="myForm" action="1.php" onsubmit="return validateForm()" method="post">
     <div class="background">
         <div class="container">
             <div class="screen">
