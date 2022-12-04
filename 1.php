@@ -3,9 +3,8 @@
 <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 </head>
 <body>
-<h2>Contact Us</h2>
-  
-  <?php
+
+<?php
 
 if (isset($_POST['fname'])) {
 
@@ -14,25 +13,50 @@ if (isset($_POST['fname'])) {
 }
 else{
 
-    echo '<form name="myForm" action="1.php" onsubmit="return validateForm()" method="post">
-    <div class="siimple-form">
-    <div class="siimple-form-detail">Fill the form to contact us.</div>
-    <div class="siimple-form-field">
-    <div class="siimple-form-field-label">Your Name</div>
-    <input type="text" class="siimple-input siimple-input--fluid" placeholder="John" name="fname" >
-    <input class="btn1" type="submit"  value="Submit">
+    echo '<form name="myForm" action="1test.php" onsubmit="return validateForm()" method="post">
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+        <div class="screen-body">
+            <div class="screen-body-item left">
+                <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+                </div>
+            </div>
+        <div class="screen-body-item">
+            <div class="app-form">
+                <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" name="fname">
+                </div>
+                <div class="app-form-group buttons">
+              <button class="app-form-button">SEND</button>
+                </div>
+            </div>
+        </div>
+      </div>
     </div>
     </div>
+    </div>
+
     </form>';
 
 }
 
 ?>
-
- <br>
-    <br>
-<br>
-<span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span>
+<!-- <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span> -->
 
 <script>
 	function validateForm() {
@@ -43,5 +67,6 @@ else{
     }
 }
 </script>
+
 </body>
 </html>
