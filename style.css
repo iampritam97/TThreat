@@ -196,12 +196,6 @@ body, button, input {
   text-decoration: none;
 }
 
-.dribbble {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-
 @media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
@@ -374,4 +368,6 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
 }
+
+
 
