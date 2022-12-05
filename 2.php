@@ -32,18 +32,13 @@ die;
         <div class="screen-body">
             <div class="screen-body-item left">
                 <div class="app-title">
-                <span>CONTACT</span>
+                <span>ABOUT</span>
                 <span>US</span>
                 </div>
             </div>
         <div class="screen-body-item">
-            <div class="app-form">
-                <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME" name="fname">
-                </div>
-                <div class="app-form-group buttons">
-              <button class="app-form-button">SEND</button>
-                </div>
+            <div class="app-form-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim ex dui, non sagittis quam pharetra eget. Morbi porta pretium sollicitudin. Pellentesque sollicitudin, odio id convallis aliquam, sapien orci ornare velit, non dictum massa velit a quam. Quisque turpis orci, hendrerit vel molestie eu, ultrices ut augue. Nunc mauris ipsum, semper at justo vitae, porta bibendum dolor. Pellentesque nibh nulla, convallis eget lorem sed, venenatis tincidunt ex. Quisque pulvinar quam in finibus egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In erat elit, consectetur facilisis iaculis et, congue in libero. Curabitur eu leo commodo orci pharetra porttitor. Nulla fermentum vulputate convallis. Nullam non faucibus leo, ac dignissim diam. Etiam auctor eget leo id fringilla. Morbi tristique malesuada nulla id dignissim. Aenean hendrerit pellentesque mauris.</p>
             </div>
         </div>
       </div>
@@ -51,12 +46,22 @@ die;
     </div>
     </br>
     </br>
-    <button style="align:right;" class="btnhome"><a href="/xss-labs">Home</a></button> 
+    <button style="align:right;" class="btnhome"><a href="/xss-labs">Home</a></button>
+    <button style="align:right;" class="btnext"><a href="#popup1">Hint ?</a></button> 
     <button style="align:right;" class="btnext"><a href="2.php">Next Task</a></button>
     </div>
     </div>
 
     </form>
+
+    <div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Hint !</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="contentt">
+			Check the URL
+		</div>
+	</div>
     <?php
 
 if(isset($_GET['id'])) {
