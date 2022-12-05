@@ -4,6 +4,8 @@
 </head>
 <body>
 
+<h1>XSS Challenge 1</h1>
+
 <?php
 
 if (isset($_POST['fname'])) {
@@ -65,7 +67,6 @@ else{
 <!-- <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span> -->
 
             
-
 <script>
 	function validateForm() {
     var x = document.forms["myForm"]["fname"].value;

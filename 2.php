@@ -12,7 +12,7 @@ die;
 <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 </head>
 <body>
-
+<h1>XSS Challenge 2</h1>
 <form name="myForm">
     <div class="background">
         <div class="container">
@@ -58,7 +58,7 @@ die;
 
     </form>
     <?php
-echo "<br>Value : ";
+
 if(isset($_GET['id'])) {
 $status =  $_GET['id'];
 echo $status;
