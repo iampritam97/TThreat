@@ -62,11 +62,11 @@ if(isset($_POST['username'])) {
             <div class="screen-body-item">
                 <div class="app-form">
                     <div class="app-form-group">
-                        <input type="text" class="siimple-input siimple-input--fluid" placeholder="username" name="username">
+                        <input type="text" class="siimple-input siimple-input--fluid" placeholder="username" name="username" required>
                     </div>
 
                     <div class="app-form-group">
-                        <input type="password" class="siimple-input siimple-input--fluid" placeholder="password" name="password">
+                        <input type="password" class="siimple-input siimple-input--fluid" placeholder="password" name="password" required>
                     </div>
 
                     <?php
@@ -107,18 +107,7 @@ if(isset($_POST['username'])) {
 
 
 ?>
-<!-- <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span> -->
 
-            
-<script>
-	function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-}
-</script>
 
 </body>
 </html>
