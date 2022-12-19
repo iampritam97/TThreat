@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-   <!--------- <title>Responsive Navigation Menu</title>------>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <div class="logo">TTHREAT.</div>
-      <input type="checkbox" id="click">
-      <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">Tasks</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      <div>Responsive Navigation Menu Bar Design</div>
-      <div>using only HTML & CSS</div>
-    </div>
+<html lang="en">
 
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - XSS Labs</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="mainContainer">
+
+
+        <div class="img">
+            <img class="mainImage" src="./dp.jpg" alt="image">
+        </div>
+        <h1>XSS Labs</h1>
+        <hr class="hr">
+
+        <div class="container">
+            <h2 class="teamName"> <span> </span> TTHREAT </h2>
+            <p class="text1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet non magnam velit et sapiente sint
+                sed harum officia vel? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Debitis, nesciunt! Vero fuga deserunt eius hic quia magni odio ab.
+
+            </p>
+
+            <textarea name="textbox" class="textbox" cols="70" rows="2">
+Email : admin@tthreat.com
+            </textarea>
+        </div>
+    </div>
+</body>
+
 </html>
