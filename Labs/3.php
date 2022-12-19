@@ -104,10 +104,5 @@ if(isset($_POST['username'])) {
 		</div>
 	</div>
 
-
-
-?>
-
-
 </body>
 </html>
