@@ -8,7 +8,7 @@ It is important to note that these labs are intended for educational and researc
 ## Installation(XAMPP):
 * Run your XAMPP server
 * Clone the repository and put the files in the /htdocs/TThreat
-* You can access http://localhost:8080/TThreat
+* You can access http://localhost:8080/TThreat/home.php
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pritam-dash-116931171) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/iampritam333) 
