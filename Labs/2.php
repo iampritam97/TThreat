@@ -48,7 +48,7 @@ die;
     </br>
     <button style="align:right;" class="btnhome"><a href="../home.php">Home</a></button>
     <button style="align:right;" class="btnext"><a href="#popup1">Hint ?</a></button> 
-    <button style="align:right;" class="btnext"><a href="2.php">Next Task</a></button>
+    <button style="align:right;" class="btnext"><a href="3.php">Next Task</a></button>
     </div>
     </div>
 
@@ -70,9 +70,5 @@ $status =  $_GET['id'];
 echo $status;
 }
 ?> 
-<!-- <span class="success">Happy</span> <span class="directory">hacking ^_^</span> <span class="user-input" id="userInput"></span> -->
-
-            
-
 </body>
 </html>
