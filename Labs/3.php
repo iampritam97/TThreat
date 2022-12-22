@@ -87,7 +87,7 @@ if(isset($_POST['username'])) {
         </div>
         </br>
         </br>
-        <button style="align:right;" class="btnhome"><a href="/xss-labs">Home</a></button>
+        <button style="align:right;" class="btnhome"><a href="../home.php">Home</a></button>
         <button style="align:right;" class="btnext"><a href="#popup1">Hint ?</a></button>  
         <button style="align:right;" class="btnext"><a href="2.php">Next Chall</a></button>
         </div>

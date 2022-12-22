@@ -5,7 +5,7 @@
 }
 
 body {
-  background: yellow;
+  background: #c8e8e9;
   font-size: 12px;
 }
 
@@ -109,7 +109,7 @@ body, button, input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: yellow;
+  color: greenyellow;
   font-size: 26px;
 }
 
@@ -121,7 +121,7 @@ body, button, input {
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: yellow;
+  background: greenyellow;
 }
 
 .app-contact {
@@ -167,7 +167,7 @@ body, button, input {
 .app-form-button {
   background: none;
   border: none;
-  color: yellow;
+  color: greenyellow;
   font-size: 14px;
   cursor: pointer;
   outline: none;
@@ -231,7 +231,7 @@ body, button, input {
 .btnhome, .btnext {
   margin: 0 auto;
   background-color: #666;
-  color: yellow;
+  color: greenyellow;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -244,7 +244,7 @@ body, button, input {
 }
 
 a {
-  color: yellow;
+  color: greenyellow;
 }
 
 a:link { text-decoration: none; }
@@ -444,6 +444,48 @@ h1 {
   .popup{
     width: 70%;
   }
+
+ 
+  /* CSS */
+  .button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-52:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }
+
+
 }
 
 
